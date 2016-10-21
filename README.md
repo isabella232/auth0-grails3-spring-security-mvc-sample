@@ -140,10 +140,7 @@ auth0.clientId: 7JbjgoK7BAuLL4AL6x8pOYfNSiBeZMdW
 auth0.clientSecret: dn0p_95MmZKMDoXXXXXXXkE5Uu1Opo9oXXXXaho03P9Q907oHUE
 ```
 
-Note: There are two properties in `auth0.properties` that you do not need to touch. Leave values as `false`
-
-`auth0.servletFilterEnabled: false` - this ensures we don't autowire the ServletFilter defined in an Auth0 dependency
-library.
+Note:
 
 `auth0.defaultAuth0WebSecurityEnabled: false` - this ensures we do not autowire the default configuration file
 provided with the `auth0-spring-security-mvc` library itself. That is a default configuration suitable only for
